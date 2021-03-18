@@ -6,8 +6,8 @@
 #include <pcl/segmentation/sac_segmentation.h>
 #include <pcl/visualization/pcl_visualizer.h>
 
-typedef pcl::PointXYZ PointT;
-typedef pcl::PointCloud<PointT> PointCloudT;
+using PointT = pcl::PointXYZ;
+using PointCloudT = pcl::PointCloud<PointT>;
 
 int main(int argc, char *argv[]) {
 
