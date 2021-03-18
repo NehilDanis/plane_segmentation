@@ -4,6 +4,12 @@ cmake_minimum_required(VERSION 3.0.2)
 # give your project a name
 project(plane_segmentation)
 
+## Compile as C++11
+add_compile_options(-std=c++11)
+
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+
 # PCL will be excessively used in this project
 find_package(PCL REQUIRED)
 
