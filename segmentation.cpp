@@ -15,6 +15,7 @@ int main(int argc, char *argv[]) {
   PointCloudT::Ptr cloud_inliers(new PointCloudT);
   PointCloudT::Ptr cloud_outliers(new PointCloudT);
 
+  // USE YOUR OWN POINTCLOUD FILE HERE!
   // Load point cloud
   if (pcl::io::loadPCDFile("arm.pcd", *cloud) < 0) {
     PCL_ERROR("Could not load PCD file !\n");
